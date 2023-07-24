@@ -1,0 +1,66 @@
+/* dark-mode.css */
+
+:root {
+    --background-color: #202020;
+    --text-color: #f2f2f2;
+    /* Add more CSS variables for other styles in dark mode */
+  }
+  
+  body.dark-mode {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    /* Add more styles for dark mode */
+  }
+  /* dark-mode.css */
+
+/* Styles for dark mode */
+body.dark-mode {
+    background: #212529;
+    color: #f8f9fa;
+  }
+  
+  /* Add styles for other elements you want to change in dark mode */
+  .dark-mode .navbar {
+    background: #343a40;
+  }
+  
+  .dark-mode .stories-list > li {
+    color: #adb5bd;
+  }
+  
+/* dark-mode.css */
+
+/* Styles for dark mode */
+body.dark-mode {
+    background: #212529;
+    color: #f8f9fa;
+  }
+  
+  .dark-mode .navbar {
+    background: #343a40;
+  }
+  
+  .dark-mode .stories-list > li {
+    color: #adb5bd;
+  }
+  
+  /* Override the orange color */
+  .dark-mode a {
+    color: #000000;
+  }
+
+  /* Styles for the "Hack or Snooze" title in dark mode */
+.dark-mode .navbar-brand {
+  color: #f8f9fa; /* Adjust this color to be visible against the dark background */
+}
+  
+  /* Override the tan color */
+  .dark-mode .account-forms-container {
+    background: #d2b48c;
+  }
+  
+  /* Override the font */
+  .dark-mode body {
+    font-family: 'Arial', sans-serif;
+  }
+  

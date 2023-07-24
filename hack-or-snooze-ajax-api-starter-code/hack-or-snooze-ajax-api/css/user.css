@@ -1,0 +1,18 @@
+/* Login and signup forms */
+
+.account-form button {
+  width: 4rem;
+  margin-left: 80px;
+}
+
+/* Adjust the width for the signup form button */
+#signup-form button {
+  width: 8rem;
+}
+
+/* Add padding to the container holding the account forms */
+.account-forms-container {
+  padding-left: 20px;
+}
+
+

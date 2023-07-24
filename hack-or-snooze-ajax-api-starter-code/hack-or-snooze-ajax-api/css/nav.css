@@ -1,0 +1,24 @@
+/* Navigation bar */
+
+nav {
+  display: flex;
+  background-color: #ff6600;
+  align-items: center;
+  padding: 10px 20px; /* Increased vertical padding for better spacing */
+  border-radius: 3px 3px 0 0;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.2rem; /* Increased font size for the navbar brand */
+}
+
+.nav-link {
+  font-size: 0.9rem; /* Increased font size for nav links */
+  margin: 0 8px; /* Increased horizontal margin for better spacing */
+}
+
+.nav-right {
+  margin-left: auto;
+  text-align: right;
+}
